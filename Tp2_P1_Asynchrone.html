@@ -1,0 +1,35 @@
+<!doctype HTML>
+
+<html lang="fr">
+    <head>
+    <meta charset="utf-8">
+    <title>TP Formulaire</title>
+    <link rel="stylesheet" href="Tp2_P1_Asynchrone.css" >
+    </head>
+    <body>
+        <form action="file.php" method="post">
+
+            <h1>
+                Connexion
+            </h1>
+
+                <div class="userName">
+                    <label for="userName">Pseudo:</label>
+                    <input type="text" name="usertName" id="userName" placeholder="Mon pseudo">
+                </div>
+        
+                <div class="password">
+                    <label for="password">Mot de passe:</label>
+                    <input type="text" name="password" id="password" placeholder="Mon mot de passe">
+                </div>
+
+                <div class="checkMemory">
+                    <input type="checkbox" name="checkMemory" id="checkMemory" checked>
+                    <label for="checkMemory" id="labelCheckbox">Se souvenir de moi</label>
+                </div>
+
+                <div class="buttons">
+                <input type="button" value="Connexion" id="boutonCo"><input type="button" value="Retour">
+                </div>
+        </form>
+    </body>

@@ -1,0 +1,50 @@
+form{
+    height: 250px;
+    width: 400px;
+    border: solid black 2px;
+    background-color: darkgrey;
+    
+}
+
+h1{
+    text-align: center;
+    background-color: green;
+}
+
+.buttons{
+    text-align: center;
+    background-color: yellow;
+}
+
+label{
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+input{
+    margin: 10px;
+}
+
+#checkMemory{
+    margin-left: 30px;
+}
+
+#labelCheckbox{
+    margin-left: 10px;
+}
+
+#boutonCo{
+    margin-right: 5px;
+}
+
+.userName{
+    background-color: red;
+}
+
+.password{
+    background-color: blue;
+}
+
+.checkMemory{
+    background-color: purple;
+}
